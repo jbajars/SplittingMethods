@@ -7,3 +7,6 @@ File `SplittingMethods_PureCode_WithoutData.zip` contains pure code without prec
   <img src="Figures/stat_solution.png" width="46%" /> &nbsp; &nbsp;   
   <img src="Figures/mov_solution.png" width="46%" /> 
 </p>
+
+This research has been financially supported by the specific support objective activity 1.1.1.2. “Post-doctoral Research Aid” of the Republic of Latvia (Project No. 1.1.1.2/VIAA/4/20/617 “Data-Driven Nonlinear Wave Modelling”), funded by the European Regional Development Fund (project id. N. 1.1.1.2/16/I/001).
+
