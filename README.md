@@ -11,16 +11,10 @@ File `SplittingMethods_PureCode_WithoutData.zip` contains pure code without prec
 This research has been financially supported by the specific support objective activity 1.1.1.2. “Post-doctoral Research Aid” of the Republic of Latvia (Project No. 1.1.1.2/VIAA/4/20/617 “Data-Driven Nonlinear Wave Modelling”), funded by the European Regional Development Fund (project id. N. 1.1.1.2/16/I/001).
 
 #### Instructions to run the code
-- Volume-preserving differential equations are defined in file `DynamicalSystems/VolumePreservingODEs.py`.
-- Training and testing data for four example cases are computed in the following files: `DynamicalSystems/TrainingData_AdvectionEq.py`, `DynamicalSystems/TrainingData_RigidBody_Single.py`, `DynamicalSystems/TrainingData_RigidBody_Whole.py`, and `DynamicalSystems/TrainingData_ChargedParticle.py`, respectively.
-- All training and testing data is saved in associated problem folders `DynamicalSystems/SavedTrainingData/`.
-- All neural network functionas are defined in folder `NeuralNetworkFnc`.
-- File `NeuralNetworkFnc/module-class.py` contains LocSympNets and SymLocSympNets modules.
-- File `NeuralNetworkFnc/training-class.py` contains neural network training functions.
-- Additional neural network supporting functions are defined in files `NeuralNetworkFnc/mySequential.py` and `NeuralNetworkFnc/custom_dataset.py`.
-- LocSympNets training script files for four example cases are: `training_AdvectionEq_script.py`, `training_RigidBody_Single_script.py`, `training_RigidBody_Whole_script.py`, and `training_ChargedParticle_script.py`, respectively. 
-- SymLocSympNets training script files for four example cases are: `training_AdvectionEq_sym_script.py`, `training_RigidBody_Single_sym_script.py`, `training_RigidBody_Whole_sym_script.py`, and `training_ChargedParticle_sym_script.py`, respectively. 
-- All trained neural networks are saved in associated problem folders `SavedNeuralNets/`.
-- LocSympNets prediction and testing script files for four example cases are: `predictions_AdvectionEq_script.py`, `predictions_RigidBody_Single_script.py`, `predictions_RigidBody_Whole_script.py`, and `predictions_ChargedParticle_script.py`, respectively. 
-- SymLocSympNets training and testing script files for four example cases are: `predictions_AdvectionEq_sym_script.py`, `predictions_RigidBody_Single_sym_script.py`, `predictions_RigidBody_Whole_sym_script.py`, and `predictions_ChargedParticle_sym_script.py`, respectively. 
-- Produced images are saved in associated problem folders `Figures/`.
+- To perform a numerical simulation, run the file `main.m`.
+- Initial conditions and the choice of the numerical method is set in the same file `main.m`.
+- All parameter values are defined in the file `Parameter_Values.m`.
+- All variables are initialized in the file `Define_Variables.m`. 
+- For convenience, all parameter values and variables are saved in structures: `parm` and `vars`, respectively.
+- All functions and numerical methods can be found and are defined in folder `Functions/`.
+- Optionally, data and figures can be saved in the following folders: `SavedData` and `Figures`, respectively.
