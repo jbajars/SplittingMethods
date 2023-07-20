@@ -12,9 +12,9 @@ This research has been financially supported by the specific support objective a
 
 #### Instructions to run the code
 - To perform a numerical simulation, run the file `main.m`.
-- Initial conditions and the choice of the numerical method is set in the same file `main.m`.
+- Initial conditions and the choice of the numerical method are set in the same file `main.m`.
 - All parameter values are defined in the file `Parameter_Values.m`.
 - All variables are initialized in the file `Define_Variables.m`. 
 - For convenience, all parameter values and variables are saved in structures: `parm` and `vars`, respectively.
-- All functions and numerical methods can be found and are defined in folder `Functions/`.
+- All functions and numerical methods can be found and are defined in the folder `Functions`.
 - Optionally, data and figures can be saved in the following folders: `SavedData` and `Figures`, respectively.
